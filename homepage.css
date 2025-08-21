@@ -7,12 +7,6 @@
     text-decoration: none;
 
 }
-
-.wrapper{
-    margin: 0 2rem 0 2rem;
-
-    
-}
 header nav{
     display: flex;
     justify-content: space-between;
@@ -68,6 +62,7 @@ body{
     
 }
 .intro-container{
+    margin: 5rem 2rem 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -174,10 +169,43 @@ body{
 }
 
 /* INFORMATION DESIGN PART */
+.info-title{
+    background-color: #222831;
+    margin-top: 3rem;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+}
+.info-title h2{
+
+    padding: 0 0 3.5rem 0;
+}
 .info-container{
-    background-color: #979797;
+    /* align-items: center; */
     display: flex;
+    justify-content: space-evenly;
+}
+
+.info-image{
+    margin-left: 3.5rem;
     align-items: center;
+    justify-content: center;
+    border: solid 1px #ffffff;
+}
+.info-image img{
+    height: 450px;
+}
+.info-desc-box{
+    /* padding: 0 2rem 0 2rem; */
+    display: flex;
     justify-content: space-between;
-    margin-top: 5rem;
+    /* align-items: center; */
+}
+.info-desc-box p{
+    
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 1rem;
+   max-width: 600px;
+   text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
