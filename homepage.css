@@ -209,3 +209,32 @@ body{
    text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* SOFTWARE LANGUAGE INFORMATION PART */
+
+.lang-info{
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+     
+}
+.lang-info-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 2rem;
+    
+}
+.lang-box{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1), 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.lang-box img{
+    width: auto;
+    height: 120px;
+
+}
+
